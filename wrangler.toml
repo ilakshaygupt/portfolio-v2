@@ -1,0 +1,2 @@
+name = "portfolio-v2"
+compatibility_flags  = ["nodejs_compat"]
