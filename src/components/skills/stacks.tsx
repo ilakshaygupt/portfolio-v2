@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import ConnectionLine from "./connection-line";
 
-import { docker, git, django, flutter, nextjs, fastapi, postgresssql, python, react, dart, swift, socketio, tailwind, ts } from "@/assets/skills/index";
+import { dart, django, docker, fastapi, flutter, git, nextjs, postgresssql, python, react, socketio, swift, tailwind, ts } from "@/assets/skills/index";
 import { cn } from "@/lib/utils";
 
 type TechBoxProps = {
