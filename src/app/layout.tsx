@@ -4,7 +4,6 @@ import NextTopLoader from "nextjs-toploader";
 
 import "./globals.css";
 
-import bannerUrl from "@/assets/banner.png";
 import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -14,8 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "Home - Lakshay Gupta",
     description: "Hello there I am Lakshay Gupta full stack developer and I love to build products that make people's life easier.",
-    openGraph: {
-        images: [{ url: bannerUrl.src, alt: "Your Alt Text" }],
+    openGraph: {        
     },
 };
 
