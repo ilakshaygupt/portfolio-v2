@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import ConnectionLine from "./connection-line";
 
-import { docker, git, go, mongodb, nextjs, nodejs, postgresssql, python, react, redux, rust, socketio, tailwind, ts } from "@/assets/skills/index";
+import { docker, git, django, flutter, nextjs, fastapi, postgresssql, python, react, dart, swift, socketio, tailwind, ts } from "@/assets/skills/index";
 import { cn } from "@/lib/utils";
 
 type TechBoxProps = {
@@ -135,8 +135,8 @@ export const techs = {
             color: "#38b2ac",
         },
         {
-            title: "Rust",
-            image: rust,
+            title: "Swift",
+            image: swift,
             color: "#bf0477",
         },
     ],
@@ -154,8 +154,8 @@ export const techs = {
     ],
     stage3: [
         {
-            title: "MongoDB",
-            image: mongodb,
+            title: "Flutter",
+            image: flutter,
             color: "#45A538",
         },
         {
@@ -166,13 +166,13 @@ export const techs = {
     ],
     stage4: [
         {
-            title: "NodeJS",
-            image: nodejs,
+            title: "FastAPI",
+            image: fastapi,
             color: "#83CD29",
         },
         {
-            title: "Redux",
-            image: redux,
+            title: "Dart",
+            image: dart,
             color: "#764abc",
         },
         {
@@ -186,8 +186,8 @@ export const techs = {
             color: "#27AACD",
         },
         {
-            title: "Go",
-            image: go,
+            title: "Django",
+            image: django,
             color: "#00acd7",
         },
     ],
